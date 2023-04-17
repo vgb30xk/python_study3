@@ -45,7 +45,7 @@ movies = pickle.load(open('movies.pickle', 'rb'))
 cosine_sim = pickle.load(open('cosine_sim.pickle', 'rb'))
 
 st.set_page_config(layout='wide')
-st.header('Nadoflix')
+st.header('Jaehyunflix')
 
 movie_list = movies['title'].values
 title = st.selectbox('Choose a movie you like', movie_list)
